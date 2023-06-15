@@ -15,5 +15,8 @@ class Accueil extends BaseController
     {
         // Data transferred to the requested view
         $data['title'] = ucfirst($page);
+
+        // Afficher la vue avec en-tête et pied-de-page
+ return view('templates/header', $data)
     }
 }
