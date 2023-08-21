@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!doctype html>
+<html>
 
 <head>
-    <title>Gestion des formation KaruKonnect</title>
+    <title>Gestion des formations KAruKonnect</title>
 </head>
 
 <body>
+
     <h1><?= esc($title) ?></h1>
-
-</body>
-
-</html>

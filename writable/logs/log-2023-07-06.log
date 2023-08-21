@@ -1,0 +1,56 @@
+CRITICAL - 2023-07-06 19:49:56 --> Undefined array key "CODE"
+in APPPATH\Views\formation\index.php on line 14.
+ 1 APPPATH\Views\formation\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CODE"', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/index', [], true)
+ 5 APPPATH\Controllers\Formation.php(19): view('formation/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 20:13:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\formation\view.php on line 1.
+ 1 APPPATH\Views\formation\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/view', [], true)
+ 5 APPPATH\Controllers\Formation.php(32): view('formation/view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->view('ajouter')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 20:15:39 --> Undefined variable $data
+in APPPATH\Controllers\Formation.php on line 38.
+ 1 APPPATH\Controllers\Formation.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Controllers\\Formation.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 20:15:40 --> Undefined variable $data
+in APPPATH\Controllers\Formation.php on line 38.
+ 1 APPPATH\Controllers\Formation.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Controllers\\Formation.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 20:16:01 --> Undefined variable $title
+in APPPATH\Views\templates\header.php on line 10.
+ 1 APPPATH\Views\templates\header.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\templates\\header.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Formation.php(38): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-06 20:17:07 --> Invalid file: "formation/ajouter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formation/ajouter.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/ajouter', [], true)
+ 3 APPPATH\Controllers\Formation.php(43): view('formation/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,352 @@
+CRITICAL - 2023-07-17 12:52:50 --> Allowed fields must be specified for model: "App\Models\FormationModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\FormationModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\FormationModel.php(22): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Formation.php(57): App\Models\FormationModel->putformation([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 12:52:50 --> Allowed fields must be specified for model: "App\Models\FormationModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\FormationModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\FormationModel.php(22): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Formation.php(57): App\Models\FormationModel->putformation([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:01:04 --> Allowed fields must be specified for model: "App\Models\FormationModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\FormationModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\FormationModel.php(24): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Formation.php(57): App\Models\FormationModel->putformation([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:01:26 --> Allowed fields must be specified for model: "App\Models\FormationModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\FormationModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\FormationModel.php(24): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Formation.php(57): App\Models\FormationModel->putformation([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:02:26 --> Allowed fields must be specified for model: "App\Models\FormationModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\FormationModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\FormationModel.php(24): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\Formation.php(57): App\Models\FormationModel->putformation([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:03:18 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\FormationModel.php(24): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Formation.php(57): App\Models\FormationModel->putformation([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->ajouter()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:13:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\formation\view.php on line 1.
+ 1 APPPATH\Views\formation\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/view', [], true)
+ 5 APPPATH\Controllers\Formation.php(32): view('formation/view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->view()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:20:23 --> Unclosed '{' on line 8
+in APPPATH\Controllers\Formation.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Controllers\\Formation.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Formation')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Formation')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Formation', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:20:27 --> Unclosed '{' on line 8
+in APPPATH\Controllers\Formation.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Controllers\\Formation.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Formation')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Formation')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Formation', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:20:31 --> Unclosed '{' on line 8
+in APPPATH\Controllers\Formation.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Controllers\\Formation.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Formation')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Formation')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Formation', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:22:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\formation\view.php on line 1.
+ 1 APPPATH\Views\formation\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/view', [], true)
+ 5 APPPATH\Controllers\Formation.php(32): view('formation/view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->view()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:33:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\formation\view.php on line 1.
+ 1 APPPATH\Views\formation\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/view', [], true)
+ 5 APPPATH\Controllers\Formation.php(32): view('formation/view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->view('ajouter')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:54:14 --> Undefined variable $formation_item
+in APPPATH\Views\apprenant\index.php on line 23.
+ 1 APPPATH\Views\apprenant\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_item', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/index', [], true)
+ 5 APPPATH\Controllers\Apprenant.php(23): view('apprenant/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 13:54:19 --> Undefined variable $formation_item
+in APPPATH\Views\apprenant\index.php on line 23.
+ 1 APPPATH\Views\apprenant\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_item', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/index', [], true)
+ 5 APPPATH\Controllers\Apprenant.php(23): view('apprenant/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 16:12:34 --> Call to undefined method App\Models\FormationModel::delformation
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Formation.php(67): CodeIgniter\Model->__call('delformation', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->supprimer('0', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 16:13:46 --> Call to undefined method App\Models\FormationModel::delformation
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Formation.php(67): CodeIgniter\Model->__call('delformation', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->supprimer('0', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 16:13:50 --> Call to undefined method App\Models\FormationModel::delformation
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Formation.php(67): CodeIgniter\Model->__call('delformation', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->supprimer('0', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 16:13:54 --> Call to undefined method App\Models\FormationModel::delformation
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Formation.php(67): CodeIgniter\Model->__call('delformation', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->supprimer('2', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 17:20:56 --> Call to undefined method App\Models\FormationModel::delformation
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Formation.php(67): CodeIgniter\Model->__call('delformation', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->supprimer('0', '0')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 17:32:54 --> Undefined variable $formation_item
+in APPPATH\Views\formation\index.php on line 4.
+ 1 APPPATH\Views\formation\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_item', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/index', [], true)
+ 5 APPPATH\Controllers\Formation.php(21): view('formation/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 17:40:47 --> Undefined variable $formation_item
+in APPPATH\Views\formation\index.php on line 4.
+ 1 APPPATH\Views\formation\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_item', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/index', [], true)
+ 5 APPPATH\Controllers\Formation.php(21): view('formation/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 17:40:57 --> Undefined variable $formation_item
+in APPPATH\Views\formation\index.php on line 4.
+ 1 APPPATH\Views\formation\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_item', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/index', [], true)
+ 5 APPPATH\Controllers\Formation.php(21): view('formation/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 17:41:34 --> Undefined variable $formation_item
+in APPPATH\Views\formation\index.php on line 3.
+ 1 APPPATH\Views\formation\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_item', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/index', [], true)
+ 5 APPPATH\Controllers\Formation.php(21): view('formation/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 17:44:09 --> Undefined array key "ID_FORMATION"
+in APPPATH\Views\formation\index.php on line 6.
+ 1 APPPATH\Views\formation\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_FORMATION"', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/index', [], true)
+ 5 APPPATH\Controllers\Formation.php(21): view('formation/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 18:46:26 --> syntax error, unexpected token "}"
+in APPPATH\Models\ApprenantModel.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Models\\ApprenantModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ApprenantModel')
+ 3 APPPATH\Controllers\Apprenant.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ApprenantModel')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:10:04 --> syntax error, unexpected single-quoted string "slarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:10:37 --> syntax error, unexpected single-quoted string "salarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:10:38 --> syntax error, unexpected single-quoted string "salarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:10:51 --> syntax error, unexpected single-quoted string "salarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:10:52 --> syntax error, unexpected single-quoted string "salarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:10:52 --> syntax error, unexpected single-quoted string "salarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:10:52 --> syntax error, unexpected single-quoted string "salarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:11:09 --> syntax error, unexpected single-quoted string "Etudiant", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 19:14:39 --> syntax error, unexpected single-quoted string "salarie", expecting "]"
+in APPPATH\Views\apprenant\ajouter.php on line 113.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 3 APPPATH\Controllers\Apprenant.php(49): view('apprenant/ajouter')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:16:43 --> Undefined variable $model
+in APPPATH\Controllers\Apprenant.php on line 46.
+ 1 APPPATH\Controllers\Apprenant.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Controllers\\Apprenant.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:18:06 --> Call to undefined method App\Models\ApprenantModel::getVille
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Apprenant.php(40): CodeIgniter\Model->__call('getVille', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 20:19:44 --> Undefined variable $NOM
+in APPPATH\Views\apprenant\ajouter.php on line 93.
+ 1 APPPATH\Views\apprenant\ajouter.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $NOM', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\ajouter.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\ajouter.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/ajouter', [], true)
+ 5 APPPATH\Controllers\Apprenant.php(44): view('apprenant/ajouter')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->ajouter()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

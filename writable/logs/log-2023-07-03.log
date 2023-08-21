@@ -1,0 +1,44 @@
+CRITICAL - 2023-07-03 18:16:33 --> Undefined array key "Nom"
+in APPPATH\Views\apprenant\index.php on line 7.
+ 1 APPPATH\Views\apprenant\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nom"', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/index', [], true)
+ 5 APPPATH\Controllers\Apprenant.php(23): view('apprenant/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 18:19:32 --> Undefined array key "id_apprenant"
+in APPPATH\Views\apprenant\index.php on line 16.
+ 1 APPPATH\Views\apprenant\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_apprenant"', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\apprenant\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('apprenant/index', [], true)
+ 5 APPPATH\Controllers\Apprenant.php(23): view('apprenant/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Apprenant->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apprenant))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 18:22:17 --> Undefined array key "TITRE"
+in APPPATH\Views\formation\index.php on line 7.
+ 1 APPPATH\Views\formation\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TITRE"', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/index', [], true)
+ 5 APPPATH\Controllers\Formation.php(19): view('formation/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 18:22:41 --> Undefined array key "Titre"
+in APPPATH\Views\formation\view.php on line 1.
+ 1 APPPATH\Views\formation\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Titre"', 'C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\ci4\\kakofor\\app\\Views\\formation\\view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('formation/view', [], true)
+ 5 APPPATH\Controllers\Formation.php(32): view('formation/view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Formation->view('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formation))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
